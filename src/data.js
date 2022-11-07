@@ -2,9 +2,9 @@
 
 export const merchant = {
     name: "8-bit mafia",
-    avatar: "./img/useravatar.jpg"
+    avatar: "./img/avatar.svg"
 }
 
 export const user = {
-    userId: "0x90579d38djd38d9fAc"
+    id: "0x90579d38djd38d9fAc"
 }

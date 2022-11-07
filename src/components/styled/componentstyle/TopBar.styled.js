@@ -1,15 +1,14 @@
 import styled from 'styled-components';
 
-export const TopBarWrapper = styled.nav`
-    height: 72px;
-    position: absolute;
+export const TopBarWrapper = styled.header`
     display: flex;
     align-items: flex-end;
     margin-left: 24px;
+    height: 72px;
 `;
-export const MerchantTag = styled.div`
-    height: 40px;
-    width: 130px;
+export const MerchantTag = styled.nav`
+    height: 48px;
+    width: 145px;
     border-radius: 75px;
     background-color: #ffffff;
     display: flex;

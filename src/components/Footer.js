@@ -1,20 +1,13 @@
 import React from 'react'
 
-import styled from 'styled-components'
 import { FooterText, FooterTextB } from './styled/Text.styled'
-
-const Wrapper = styled.footer`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 15px;
-`
+import { Wrapper } from './styled/componentstyle/Footer.styled'
 
 const Footer = () => {
   return (
     <Wrapper>
-        <FooterText>Powered by <FooterTextB>RareCircles. All Rights Reserved.</FooterTextB></FooterText>
-        <FooterText>Use of the service and website is subject to our <FooterTextB>Terms of Use</FooterTextB> <FooterTextB>Privacy Statement.</FooterTextB></FooterText>
+      <FooterText>Powered by <FooterTextB>RareCircles. All Rights Reserved.</FooterTextB></FooterText>
+      <FooterText>Use of the service and website is subject to our <FooterTextB>Terms of Use</FooterTextB> <FooterTextB>Privacy Statement.</FooterTextB></FooterText>
     </Wrapper>
   )
 }
