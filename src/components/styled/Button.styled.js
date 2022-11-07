@@ -23,8 +23,9 @@ export const Button = styled.button.attrs(props => ({
     &:disabled {
         cursor: wait;
     };
+    //check if background color is dark, if yes, lighten it on hover and vice versa
     &:hover {
-        background-color: ${props => getLuminance(props.bg) >= getLuminance("#2b2b2b") ? darken(0.07, props.bg) : lighten(0.15, props.bg)};
+        background-color: ${props => getLuminance(props.bg) >= getLuminance("#2b2b2b") ? darken(0.07, props.bg) : lighten(0.18, props.bg)};
     };
 `;
 

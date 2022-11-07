@@ -16,9 +16,9 @@ const coinbase = {
 }
 
 const MintPage = ({ modalIsOpen, openModal, closeModal }) => {
+    //get selected wallet
     const location = useLocation()
     const wallet = location.pathname.split("/")[2]
-
     const walletData = wallet === "metamask" ? metamask : coinbase
 
     return (

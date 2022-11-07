@@ -13,9 +13,11 @@ import MintPage from "./pages/MintPage";
 import SuccessPage from "./pages/SuccessPage"
 import Topbar from "./components/Topbar";
 import Footer from "./components/Footer";
+
 import { PageContainer } from "./components/styled/Layout.styled";
 
 function App() {
+  //animate each page transition
   const location = useLocation()
   const transitions = useTransition(location, {
     from: { x: 0, y: 0, opacity: 0 },
@@ -24,7 +26,9 @@ function App() {
     exitBeforeEnter: true,
   })
 
+  //100vh iOS fix, window height to adapt iOS mobile browsers, -research other solutions
   const { height } = useWindowSize()
+
   const [modalIsOpen, setIsOpen] = useState(false);
 
   function openModal() {

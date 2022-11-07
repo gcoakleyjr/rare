@@ -5,6 +5,7 @@ import Confetti from 'react-confetti'
 import SuccessContent from '../components/SuccessContent'
 
 const SuccessPage = () => {
+    //dynamic sizes needed for confetti
     const { width, height } = useWindowSize()
     return (
         <>

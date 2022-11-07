@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { medium, mobile } from "./responsive"
 
+//adjusted text size and colors currently work, refactor later to not use important
 const TextBase = styled.span`
     text-align: ${({ textAlign }) => textAlign};
     font-size: ${({ fontSize }) => fontSize && fontSize + "!important"};

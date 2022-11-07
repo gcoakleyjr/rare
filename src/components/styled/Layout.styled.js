@@ -37,4 +37,5 @@ export const Flex = styled.div`
     justify-content: ${({ justifyContent }) => justifyContent};
     align-items: ${({ alignItems }) => alignItems}; 
     ${({ width }) => width && mobile({ width: "100%" })}
+    //if given a hard coded width, set to 100% on mobile view
 `;

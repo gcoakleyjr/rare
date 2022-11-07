@@ -11,14 +11,14 @@ export const Wallet = styled.div`
     border-radius: 22px;
 `;
 export const ButtonText = styled.button`
-color: ${props => props.theme.colors.muted};
-transition: color 0.3s ease;
-background: none;
-border: none;
-cursor: pointer;
-display: inherit;
-font-size: 12px;
-padding: 0;
+    color: ${props => props.theme.colors.muted};
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inherit;
+    font-size: 12px;
+    padding: 0;
 
     &:hover{
     color: ${props => props.theme.colors.dark};

@@ -5,8 +5,6 @@ import { Container, Flex } from "./styled/Layout.styled"
 import { Button } from "./styled/Button.styled"
 import { Header1, RegularText } from './styled/Text.styled'
 
-
-
 const ConnectContent = ({ openModal }) => {
     return (
         <Container>
